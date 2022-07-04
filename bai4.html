@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  // let f1=1,f2=1;
+  // for (i=0;i<100;i++){
+  //     let f3=f1+f2
+  //     f1=f2;
+  //     f2=f3;
+  //     if (f3%5==0){
+  //         document.writeln(f3);
+  //     }
+  // }
+  let f1=1, f2=1;
+  let f3;
+  let count=0;
+  while (count<3){
+      let f3=f1+f2
+      f1=f2;
+      f2=f3;
+      if (f3%5==0){
+          count++
+          alert(f3)
+      }
+
+      }
+</script>
+
+</body>
+</html>
